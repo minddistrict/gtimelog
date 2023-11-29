@@ -40,6 +40,11 @@ Changelog
 - Grouped task entries can now be sorted by start date, name, duration or
   according to tasks.txt order (GH: #228).
 
+- There's a new hidden setting to override the text editor (GH: #113).
+  You can use ``gsettings set org.gtimelog editor gvim`` (or dconf-editor).
+  More complicated settings like ``'gnome-terminal -e "vim %s"'`` also work
+  (``%s`` is replaced with the file name).
+
 
 0.11.3 (2019-04-23)
 ~~~~~~~~~~~~~~~~~~~
